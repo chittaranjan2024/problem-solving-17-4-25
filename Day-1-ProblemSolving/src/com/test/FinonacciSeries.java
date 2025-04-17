@@ -3,6 +3,15 @@ package com.test;
 import java.util.Scanner;
 
 public class FinonacciSeries {
+	
+	public static 	int fibonacci(int n)
+	{
+		//base cases
+		if(n==0) return 0;
+		if(n==1) return 1;
+		
+		return fibonacci(n-1)+fibonacci(n-2);//it calculates the sum of the two previous terms
+	}
 
 	public static void main(String[] args) {
 		
@@ -22,6 +31,12 @@ public class FinonacciSeries {
 			
 			first=second;
 			second=next;
+		}
+		
+		
+		for(int i=0;i<=num;i++)
+		{
+		 System.out.println(fibonacci(i)+" ");
 		}
 
 	}
