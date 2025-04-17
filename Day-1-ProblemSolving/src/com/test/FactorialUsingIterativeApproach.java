@@ -4,11 +4,9 @@ import java.util.Scanner;
 
 public class FactorialUsingIterativeApproach {
 
-	private static int factorial(int num)
+	private static long factorial(long num)
 	{
-		int fact=1;
-		
-		
+		long fact=1;
 		
 		for(int i=1;i<=num;i++)
 		{
@@ -21,7 +19,7 @@ public class FactorialUsingIterativeApproach {
 	
 	public static void main(String[] args) {
 		Scanner scanner=new Scanner(System.in);
-		int num=scanner.nextInt();
+		long num=scanner.nextLong();
 		
 		if(num<0)
 		{
