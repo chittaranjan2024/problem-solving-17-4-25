@@ -1,0 +1,147 @@
+Problem Solving:
+It refers to a process of designing, implementing and evaluating a computational solution
+to a given task or challenge.
+
+  key steps in problem solving:
+  
+  i)Understanding the problem
+  
+   whats are the inputs required?
+   What is the expected output?
+   Are there any constraints?(e.g. time, memory, format etc )
+   
+  ii)Decomposition (Breaking it down)
+  Divide the problem into smaller tasks. This makes it easier to manage or reuse components.
+  
+  iii)Designing an Algorithm:
+  An algorithm is a step-by-step set of instructions to solve a problem.
+   a)Correctness? - Does it give the right answer?
+   b)Efficiency? - How fast is it?
+   c)Clarity? - Is it easy to understand or debug later?
+   
+   iv)Choosing the right data structure:
+   Data structures(like arrays, list, stack, queue, tree etc) store and organize data efficiently.
+   Picking the right one can make your solution much more effective.
+   
+   v)Implementing the solution:
+   Now you translate your algorithm into code using programming languages(C, Java, Python etc).
+   Clean, readable code is the key.
+   
+    a)Using meaningful variable, function, class names.
+    b)Comments to explain tricky parts.
+    c)Modular function.
+    
+   vi)Testing and Debugging:
+   Check if your code works for all different types of input, including edge cases(like an empty list
+   or negative numbers). This step catches logic errors, typos and inefficiencies.
+   
+   vii)Optimization:
+   Once it works, can it be better?
+   
+   You might reduce:
+    Time complexity(make it faster)
+    Space complexity(use less memory)
+    
+    
+    Web Development - Optimize the page load speed
+    Cybersecurity   - Detect and prevent intrusions 
+    Netwoking       - Reducing the delay in data delivery
+    
+    
+    
+    Algorithm Designing Techniques:
+    
+    i)Brute Force: 
+    
+      Idea: Try all the possible combinations or steps and pick the best one.
+       a) Simple one to implement
+      When to use: 
+       a)when input size is small
+       b)No better algorithm is known	 
+       
+      Example: Check all subsets of an array to find the one with a given sum. 
+       
+      
+    ii)Greedy Algorithm:
+     Idea: Make the best choice at each step. Assumes local optimum leads to global optimum.
+     When to use: Problems with greedy choice property.
+    
+    Example: Prim's and Kruskal's algorithm for minimum spanning tree.
+    
+    
+    iii)Divide and conquer:
+     Idea: Divide the problem into smaller subproblems and solve them independently and combine the
+     results.
+     
+     example: Binary search, quick sort, merge sort 
+     
+     
+    iv)Dynamic Programming:
+      Idea: Break down problems into smaller overlapping subproblems and store their results to
+      avoid recomputation.
+       
+    Example: Fibonacci, Longest common subsequence etc.
+     
+    v)Backtracking:
+     Idea: Build solution incrementally, abandoning those which fails to satisfy constraints.
+     
+     Example: N-queens problem, Sudoko solver etc.
+     
+     
+    vi)Recursion:
+     Idea: A function that calls itself with smaller inputs.
+     
+     Example: Factorial, binary search etc.
+    
+    vii)Bit Manipulation
+    
+     idea: Use binary representation and bitwise operator to solve the problem.
+     Example: Subsets generation, count set bits etc.
+     
+    viii)Two pointers/Sliding Window
+     Idea: Maintain a window (subarrys/subsequence) and slide it across the input to find the
+     best result.
+     
+     example: Maximum sum subarrays of k size, Longest substring etc
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+   
+  
+  
+  
+  
+    
