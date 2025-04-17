@@ -10,7 +10,7 @@ public class PrimeNumberCheck {
 		if(num==2) return true;
 		if(num%2==0) return false;
 		
-		for(int i=2;i<=Math.sqrt(num);i=i+2)  // 13   2-3
+		for(int i=2;i<=Math.sqrt(num);i=i+2)  // n=13 3.60 - 3   - 2 - sqroot(n)  2-3
 		{
 			if(num%i==0)
 			{
