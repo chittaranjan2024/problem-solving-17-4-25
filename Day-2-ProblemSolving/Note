@@ -95,3 +95,16 @@ ii)Binary Search
 [12,23,56,78,89,567]
 target/key - 23 
 0+5/2=2
+
+
+
+[1,2,3,2,3]
+
+[1,2,3]
+
+
+
+two pointers approach -
+slow pointer - i(points to the last unique element found)
+fast pointer - j(scans through the array)
+
