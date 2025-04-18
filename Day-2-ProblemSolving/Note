@@ -119,3 +119,20 @@ arr2=[6,7,8,9]
 
 
 
+Array Rotation:
+i)Right rotation
+ii)Left rotation
+
+
+[1,2,3,4,5]
+
+k=2
+Right rotate by 2: [4,5,1,2,3]
+Left rotate by 2:[3,4,5,1,2]
+
+by K position
+
+
+
+
+
