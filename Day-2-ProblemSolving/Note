@@ -108,3 +108,14 @@ two pointers approach -
 slow pointer - i(points to the last unique element found)
 fast pointer - j(scans through the array)
 
+arr1,arr2
+i)Two arrays are considered as compatible if they are of the same length and the element at
+each corresponding index have the same parity(both are either odd or even)
+
+arr1[i]%2==arr2[i]%2
+
+arr1=[2,3,4,5]
+arr2=[6,7,8,9]
+
+
+
