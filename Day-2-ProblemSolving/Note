@@ -1,0 +1,97 @@
+Time complexity:
+Time complexity describes the running time of an algorithm grows as the input size increases.
+
+Array: N - 10000
+
+Asymptotic Notation
+a)Best case:Minimum time taken by an Algo - Big Omega
+b)Average case:Average time taken by an Algo - Big Theta 
+c)Worst case:Maximum time taken by an Algo - Big On
+
+n - input size
+
+O(1)- Constant Time
+O(log n) - Logarithmic
+O(n) - Linear
+O(nlogn)- Linearithmic
+O(n*n) - Quadratic
+O(2n)- Exponential
+O(n!)- Factorial
+
+
+Ex-1
+void printItems(int arr[])  //size - n
+{
+ for(int i:arr) //n / n-1
+ {
+  System.out.println(i);
+ }
+}
+
+Time complexity:O(n)
+Space Complexity:O(1)
+
+
+Ex-2
+void printItems(int arr[])  //size - n
+{
+ for(int i:arr) //n
+ {
+  for(int j:arr)//n*n
+  {
+   System.out.println(i+j);//n
+  }
+ }
+}
+Time complexity:O(n*n)
+Space Complexity:O(1)
+
+
+
+Ex-3
+int factorial(int n)
+{
+ if(n==1) return 1;
+ return n* factorial(n-1);
+}
+
+Time complexity: O(n)
+Space Complexity:O(1)
+
+Ex - 4
+void printMatrix(int matrix[][])//n m
+{
+ for(int i=0;i<matrix.length;i++)//n
+  {
+    for(int j=0;j<matrix[i].length;j++)//m*n
+    {
+     System.out.print(matrix[i][j]);
+    }
+  }
+}
+
+Time complexity: O(n*m)
+Space Complexity:O(1)
+
+Ex - 5
+int fibo(int n)
+{
+ if(n<=1) return n;
+ return fibo(n-1)+fibo(n-2);//2 to the power of n
+}
+
+O(2n)
+O(n)
+
+Search:
+i-index
+[12,23,56,78,89,567]
+
+target/key - 78 
+
+i)Linear Search - O(n)
+ii)Binary Search
+ 0  1  2  3  4   5
+[12,23,56,78,89,567]
+target/key - 23 
+0+5/2=2
