@@ -36,6 +36,14 @@ st2="zcdemf";
 result:c,cd,d,e,f,cde
 
 
+String Compression:
+
+input:"aaabbbccc"
+output:"a3b3c3"
+
+input:"aaabbccdd"
+output:"a3b2c2d2"
+
 
 
 
