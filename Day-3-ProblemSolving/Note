@@ -28,3 +28,33 @@ g -1
 l-1
 e-1
 
+2. Find the longest common substring
+
+st1="abcdef";
+st2="zcdemf";
+
+result:c,cd,d,e,f,cde
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
