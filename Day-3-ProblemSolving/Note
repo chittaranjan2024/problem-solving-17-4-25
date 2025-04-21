@@ -49,6 +49,12 @@ Web application url:
 input: back to home
 output:back%20to%20home
 
+Find the first non repeating character 
+
+input: "swiss"
+output: w	
+
+
 
 
 
