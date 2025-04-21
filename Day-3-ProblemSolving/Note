@@ -44,6 +44,11 @@ output:"a3b3c3"
 input:"aaabbccdd"
 output:"a3b2c2d2"
 
+Web application url:
+
+input: back to home
+output:back%20to%20home
+
 
 
 
