@@ -11,7 +11,7 @@ public class ClimbStairCase {
 	
 	
 	public static void main(String[] args) {
-		int n=5;//0 to 4
+		int n=5;//0 to 5
 		System.out.println(countWays(n));
 
 	}

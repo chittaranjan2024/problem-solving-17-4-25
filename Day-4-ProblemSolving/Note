@@ -28,7 +28,32 @@ v)Tree recursion: Function calls itself more than once.
  
  step=1/2
  
- 
- 
  N=1  - 1
  N=0 -  0 
+ 
+ 
+ 
+ Coin change problem:
+ N - target amount
+ coins - an array of integers(coin denominations)
+ 
+ Goal: Return minimum number of coins required to make N. If not possible return -1.
+ 
+ 
+ N=11
+ Given coins=[1,2,5]
+ 
+ 5+5+1=11(3 coins)
+ 
+ dp[0]=0
+ dp[1]=1(1 coin of 1)
+ dp[2]=1(1 coin of 2)
+ dp[3]=1(1+2)
+ dp[4]=1(2+2)
+ dp[5]=1(2+2+1)
+ 
+ N=22
+ Given coins=[1,2,5]
+  
+  5+5+5+5+2(5 coins)
+  
