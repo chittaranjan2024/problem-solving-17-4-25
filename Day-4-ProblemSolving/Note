@@ -1,0 +1,34 @@
+Recursion:
+It is a technique where a function calls itself to solve a smaller version of the original problem.
+
+Call stack - a frame is added to the call stack(A special memory area that tracks function calls)
+
+Infinite recursive calls leads to Stackoverflow problem.
+
+Parts of a recursive function:
+i)Base Case: This is a condition under which the recursion stops. 
+Without this, the recursion would go on forever(and crash your program).
+
+ii)Recursive Case:This is the part where the function calls itself with smaller input.
+
+
+Types of recursion:
+i)Direct recursion : Function calls itself directly. ex - factorial(n)
+ii)Indirect recursion: Function A calls Function B, which calls A  ex- A() -> B() -> A() 
+iii)Head recursion: Recursive calls happens before any computation ex: return helper(n-1)  
+iv)Tail recursion: Recursive calls happens at the end. ex: return helper(n-1)  
+v)Tree recursion: Function calls itself more than once.
+
+ Fibonacci Series: 
+ 
+ Number of steps to climb n stairs.
+ 
+ n=6
+ 
+ 
+ step=1/2
+ 
+ 
+ 
+ N=1  - 1
+ N=0 -  0 
