@@ -8,3 +8,13 @@ iii)Ternary Search
 [6,23,78,20,8,5,9]
 target/key: 5
 
+Ternary search:
+i)Divide and Conquer algorithm
+ii)Two mid pointers(mid1 and mid2)
+
+mid1=low+(high-low)/3
+mid2=high-(high-low)/3
+   mid1     mid2
+[6,23,78,20,8,5,9]
+
+target =9
