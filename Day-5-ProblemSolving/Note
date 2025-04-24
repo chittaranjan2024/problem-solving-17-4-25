@@ -2,3 +2,23 @@ Sorting:
 i)Bubble sort
 
 [6,3,4,12,46]
+
+
+Counting sort in a range of integers:
+i)Non-comparision based algorithm.
+ii)Ideal for integers within a known and limited range
+iii)It is faster than other comparison based algorithm. 
+
+
+Input Array:[4,2,-3,0,4,-2,-1,-3], max=4 min=-3
+
+step 1: Range=max-min+1=8
+       create count[8]=[0,0,0,0,0,0,0,0] 
+       index mapping- -3 ->0,  -2->1, -1->2, 0->3, 1->4, 2->5, 3->6, 4->7
+       
+       value -> index
+step 2: Count occurrences:
+        count={2,1,1,1,0,1,0,2}  
+        
+step 3:Reconstruct sorted array
+       output=[-3,-3,-2,-1,0,2,4]              
