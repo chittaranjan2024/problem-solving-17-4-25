@@ -21,4 +21,36 @@ step 2: Count occurrences:
         count={2,1,1,1,0,1,0,2}  
         
 step 3:Reconstruct sorted array
-       output=[-3,-3,-2,-1,0,2,4]              
+       output=[-3,-3,-2,-1,0,2,4]    
+       
+       
+Dutch National FLag Problem:
+
+Array with three types of elements:
+0(Low)
+1(Mid)
+2(High)
+            low mid        high 
+Input Array={2,0,2,1,1,0}
+Output={0,0,1,1,2,2}
+
+
+Solution:
+Three pointers approach
+low - > boundary of 0's
+mid - > current element which is being inspected
+high ->boundary of 2's
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 
