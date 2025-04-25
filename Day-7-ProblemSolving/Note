@@ -19,3 +19,12 @@ i)Enqueue: Adds an item to the rear
 ii)Dequeue: Removes the front item
 iii)peek: 	Returns the front item without removing
 iv)isEmpty: checks if the queue is empty
+
+()
+{}
+[]
+
+({}) 
+
+[{(})]
+
