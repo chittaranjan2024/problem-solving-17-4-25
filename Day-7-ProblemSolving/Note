@@ -10,3 +10,12 @@ iV)isEmpty : Checks if the stack is empty or not
 Implementation:
 i)Array
 ii)LinkedList
+
+Queue:A queue is a linear data structure that follows FIFO principle.
+
+pointers : rear, front
+Common Operations: 
+i)Enqueue: Adds an item to the rear
+ii)Dequeue: Removes the front item
+iii)peek: 	Returns the front item without removing
+iv)isEmpty: checks if the queue is empty
