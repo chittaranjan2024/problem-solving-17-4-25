@@ -1,0 +1,12 @@
+Stack:
+Stack is a linear data structure that follows LIFO(Last In First Out) principle.
+
+Common Operations:
+i)Push: Adds a new element to the top of the stack
+ii)Pop: Removes and returns an element from the top of the stack
+iii)peek: returns an element from the top of the stack
+iV)isEmpty : Checks if the stack is empty or not
+
+Implementation:
+i)Array
+ii)LinkedList
