@@ -1,0 +1,23 @@
+LinkedList:A LinkedList is a linear data structure where elements are not stored in contiguous memory
+locations. Instead, each element(also called Node) contains two parts.
+
+i)The data 
+ii)A Reference (a link to the next node)
+
+
+Why use linkedlist?
+
+i)Dynamic size:It can grow or shrink at runtime easily.
+ii)Efficient insertion/deletion: Adding and removing nodes is very easy.
+
+
+head--> [12,next]---->[23,next]----->[77,next]--->[67,next]---->[34, next]-->[25,next]
+nodes: 4
+
+[77,next]
+
+[6,34,56,67,89,45]
+
+Types of linkedlist
+i)Singly ii)Doubly iii)Circular
+
