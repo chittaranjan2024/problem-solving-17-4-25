@@ -143,6 +143,38 @@ public class SInglyLinkedList {
 	}
 	
 	
+	public boolean search(int key)
+	{
+		Node temp=head;
+		
+		while(temp!=null)
+		{
+			if(key==temp.data)
+			{
+				return true;
+			}
+			
+			temp=temp.next;
+		}
+		
+		return false;
+	}
+	
+	
+	public int length()
+	{
+		int count=0;
+		
+		Node temp=head;
+		while(temp!=null)
+		{
+			count=count+1;
+			temp=temp.next;
+		}
+		
+		return count;
+	}
+	
 	public void display()
 	{
 		Node temp=head;
@@ -163,6 +195,10 @@ public class SInglyLinkedList {
 		
 		list.display();
 		
+		System.out.println(list.length());
+		
+		System.out.println(list.search(78));
+		System.out.println(list.search(99));
 		list.deleteAtPosition(1);
 		list.display();
 		
