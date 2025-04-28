@@ -78,6 +78,71 @@ public class SInglyLinkedList {
 		
 	}
 	
+	
+	public void deleteFromBeginning()
+	{
+		if(head==null)
+		{
+			System.out.println("List is empty");
+			return;
+		}
+		
+		head=head.next;
+	}
+	
+	public void deleteFromLast()
+	{
+		if(head==null)
+		{
+			System.out.println("List is empty!!");
+			return;
+		}
+		
+		if(head.next==null)
+		{
+			head=null;
+			return;
+		}
+		
+		Node tmp=head;
+		while(head.next.next!=null)
+		{
+			tmp=tmp.next;
+		}
+		
+		tmp.next=null;
+	}
+	
+	
+	public void deleteAtPosition(int position)
+	{
+		if(position<1 || head==null)
+		{
+		  System.out.println("Invalid position or List is empty");	
+		  return;
+		}
+		if(position==1)
+		{
+			head=head.next;
+			return;
+		}
+		Node tmp=head;
+		for(int i=1;i<position-1 && tmp!=null;i++)
+		{
+			tmp=tmp.next;
+		}
+		
+		if(tmp==null||tmp.next==null)
+		{
+			System.out.println("Position is out of bounds!");
+			return;
+		}
+		
+		tmp.next=tmp.next.next;
+		
+	}
+	
+	
 	public void display()
 	{
 		Node temp=head;
@@ -97,6 +162,18 @@ public class SInglyLinkedList {
 		list.insertAtPosition(55, 2);
 		
 		list.display();
+		
+		list.deleteAtPosition(1);
+		list.display();
+		
+		list.deleteFromBeginning();
+		list.display();
+		
+		list.deleteFromLast();
+		list.display();
+		
+		
+		
 	}
 
 }
