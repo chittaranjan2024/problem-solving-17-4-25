@@ -175,6 +175,8 @@ public class SInglyLinkedList {
 		return count;
 	}
 	
+	
+	
 	public void display()
 	{
 		Node temp=head;
@@ -195,18 +197,22 @@ public class SInglyLinkedList {
 		
 		list.display();
 		
-		System.out.println(list.length());
+
 		
-		System.out.println(list.search(78));
-		System.out.println(list.search(99));
-		list.deleteAtPosition(1);
 		list.display();
 		
-		list.deleteFromBeginning();
-		list.display();
+		//System.out.println(list.length());
 		
-		list.deleteFromLast();
-		list.display();
+		//System.out.println(list.search(78));
+		//System.out.println(list.search(99));
+		//list.deleteAtPosition(1);
+		//list.display();
+		
+		//list.deleteFromBeginning();
+		//list.display();
+		
+		//list.deleteFromLast();
+		//list.display();
 		
 		
 		
