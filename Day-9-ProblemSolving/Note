@@ -1,0 +1,38 @@
+Tree:A tree is a non linear, hierarchical data structure consisting of nodes.
+
+Each Node contains:
+  Data(Value)
+  Reference(link) to its children(next connected nodes) 
+  
+
+Use cases:
+Databases, file systems, Networking and AI
+
+
+Basic terminologies:
+root,child,subtree,edge,key,leaf,siblings,depth,height, level
+
+  Types of trees:
+  i)General tree:A tree with no limit on the number of children.
+  ii)Binary tree:Each node can have at most two children.(left and right child)
+  iii)Binary Search Tree: A binary tree where
+     i)left child<parent
+     ii)right child>parent
+     
+     
+   iv)Balanced trees: link AVL, Red-black tree etc
+   
+   Tree traversal:
+   i)Pre-order(Root-Left-Right) ii)Post order(Left-Right-Root) iii)In-order(Left-Root-Right)
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+      
