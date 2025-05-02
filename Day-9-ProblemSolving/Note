@@ -26,6 +26,24 @@ root,child,subtree,edge,key,leaf,siblings,depth,height, level
    i)Pre-order(Root-Left-Right) ii)Post order(Left-Right-Root) iii)In-order(Left-Root-Right)
    
    
+Binary Search Tree:
+A binary search tree is a node based data structure where 
+ i)Each node has at most two children: left and right
+ ii)The left subtree of a node contains only nodes with keys less than the node's key.
+ iii)The right subtree of a node contains only nodes with keys greater than the node's key.
+ iv)Both the left and right sub tree must also be binary search tree.   
+ 
+ 
+ Insert : 67,49
+ Delete : 
+ 
+ i)Delete a leaf node: Simply delete the node
+ ii)Delete a node with single child: Copy the child node to the node and delete the node.
+ iii)Delete a node with two children: Copy the content of the inorder successor to the node, and delete
+ the inorder successor. 
+  
+   
+   
    
    
    
