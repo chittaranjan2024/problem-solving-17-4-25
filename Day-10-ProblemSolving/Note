@@ -1,0 +1,36 @@
+Graph:
+A Graph consists of :
+ i)Vertices(nodes): Entities of a graph
+ ii)Edges(links): connection between pair of vertices.
+ 
+ 
+ Types of Graphs:
+ 
+  i)Based on Direction : Directed(DGrapg), Undirected
+  
+  ii)Based on Edge weights: Weighted, Unweighted
+  
+  iii)Based on Cycles: Cyclic, Acyclic,  Directed Acyclic Graph(DAG)
+  
+  iv)Connectedness: Connected, Strongly connected graph
+  
+  
+  Graph Implementation:
+  
+  i)Adjacency Matrix
+  ii)Adjacency List
+  iii)Incidence Matrix
+  
+  
+  Traversal Algorithm:
+  i)DFS(Depth First Search)
+  ii)BFS(Breadth First Search)
+                  
+                    BFS                 DFS
+  
+  Data structure:  Queue              Stack(Or recursion)
+  Approach:        Level-order        Depth-first(go deep first)
+  Speed:           Slower than DFS    DFS is faster than BFS
+  Memory:          More memory space  DFS requires less memory space
+    
+  
