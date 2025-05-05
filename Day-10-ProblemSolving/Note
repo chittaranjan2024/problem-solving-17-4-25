@@ -33,4 +33,28 @@ A Graph consists of :
   Speed:           Slower than DFS    DFS is faster than BFS
   Memory:          More memory space  DFS requires less memory space
     
+    
+    
+    
+    Detect cycle in an undirected graph:
+    
+    i)Maintain a visited[] array to track visited notes.
+    ii)For every unvisited node we will do DFS:
+       For every adjacent node 
+        a)If it is not visited, recurse on it
+        b)If it is visited and not present, cycle is detected 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   
